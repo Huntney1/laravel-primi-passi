@@ -22,30 +22,33 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary">
+<nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Chi Siamo!</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav" style="width: 100%;" >
+                    <div style="display: flex; align-items: center; justify-content: space-evenly; width: 100%;">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    <a class="nav-link" href="/sito_web">Sito Web</a>
                     <a class="nav-link" href="/contatti">Contatti</a>
+                    <a class="nav-link" href="/sito_web">Sito Web</a>
                     <a class="nav-link" href="/altro">Altro</a>
+                </div>
                 </div>
             </div>
         </div>
     </nav>
     <div>
-        <h1>{{ $siamo }}</h1>
-        <h1>{{ $group }}</h1>
+        <h1 class="text-center">{{ $siamo }}</h1>
+        <h1 class="text-center">{{ $group }}</h1>
     </div>
-    <div>
-        <img src="https://i1.wp.com/www.cremonanews.it/wp-content/uploads/2019/06/lavori-in-corso.jpg?fit=770%2C470&ssl=1" alt="W.i.P">
+    <div class="img-row" style="width: 100%;">
+    <div class="img-col text-center">
+        <img class="object-fit-xxl-contain border rounded" src="https://i1.wp.com/www.cremonanews.it/wp-content/uploads/2019/06/lavori-in-corso.jpg?fit=770%2C470&ssl=1" alt="W.i.P">
     </div>
-
+</div>
 </body>
 
 </html>
