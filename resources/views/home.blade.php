@@ -17,42 +17,46 @@
         body {
             font-family: 'Nunito', sans-serif;
         }
+        .c-red {
+            background-color: red;
+            border: 1px solid black;
+        }
+
+
+
     </style>
 
 </head>
 
 <body class="bg-danger">
-    <nav class="navbar navbar-expand-lg bg-danger">
+    <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">HOME!</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav" style="width: 100%;" >
+                    <div style="display: flex; align-items: center; justify-content: space-evenly; width: 100%;">
                     <a class="nav-link" href="chi_siamo">Chi Siamo</a>
                     <a class="nav-link" href="/contatti">Contatti</a>
                     <a class="nav-link" href="/sito_web">Sito Web</a>
                     <a class="nav-link" href="/altro">Altro</a>
                 </div>
+                </div>
             </div>
         </div>
     </nav>
-    <div class="text-center p-1 c-red" >
-        <h1>{{ $word }}</h1>
+    <div class="text-center p-1 c-red">
+        <h1 class="text-warning">{{ $word }}</h1>
     </div>
-    <div class="text-center bg-danger mt-2">
-">
+    <div class="text-center bg-danger mt-3">
         <img src="https://freesvg.org/img/work-in-progress-woman_at_work-o-f-daisy.png" alt="W.i.P">
     </div>
-</body>
 
-<style>
-    .c-red{
-       background-color: red;
-       border: 1px solid black;
-    }
-</style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
 
 
 </html>
