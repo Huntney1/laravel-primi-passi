@@ -14,21 +14,30 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    $data = [
+        'word' => 'Benvenuti nella mia Home',
+    ];
 
-Route::get('/', function () {
-    return view('chi_siamo');
-});
+    return view('home', $data);
+})->name('home');
 
-Route::get('/', function () {
+Route::get('chi_siamo', function () {
+    $dati = [
+        'siamo' => 'Chi Siamo!',
+        'group' => 'Un Gruppo di Amici Frilance'
+    ];
+
+    return view('chi_siamo',$dati);
+})->name('chi_siamo');
+
+Route::get('sito_web', function () {
     return view('sito_web');
 });
 
-Route::get('/', function () {
+Route::get('contatti', function () {
     return view('contatti');
 }); 
 
-Route::get('/', function () {
+Route::get('altro', function () {
     return view('altro');
 });
