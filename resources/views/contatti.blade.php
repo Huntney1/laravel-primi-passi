@@ -23,28 +23,30 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-warning">
+<nav class="navbar navbar-expand-lg bg-info">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Contatti!</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav" style="width: 100%;" >
+                    <div style="display: flex; align-items: center; justify-content: space-evenly; width: 100%;">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    <a class="nav-link" href="chi_siamo">Chi Siamo</a>
+                    <a class="nav-link" href="/chi_siamo">Chi Siamo</a>
                     <a class="nav-link" href="/sito_web">Sito Web</a>
                     <a class="nav-link" href="/altro">Altro</a>
+                </div>
                 </div>
             </div>
         </div>
     </nav>
-    <div>
-        <h2 class="text-gray">Benvenuto nella Pagina Dei</h2>
-        <h2>Contatti!</h2>
+    <div class="text-center mt-4">
+        <h2>{{ $benve }}</h2>
+        <h2>{{ $cont }}</h2>
     </div>
     <div>
-        <img src="https://taotechia.org/wp-content/uploads/2020/03/cropped-cropped-cropped-cropped-cropped-WorkInProgress-1-300x300.jpg" alt="W.i.P">
+        <img class="object-fit-xxl-contain " src="https://th.bing.com/th/id/R.4ab5b8aabe2458710f24f4231b505e4a?rik=tFE%2feOJ%2fWo3roA&pid=ImgRaw&r=0" alt="W.i.P">
     </div>
 </body>
 
