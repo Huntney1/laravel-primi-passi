@@ -22,33 +22,36 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg bg-primary">
+    <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Chi Siamo!</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav" style="width: 100%;" >
+                <div class="navbar-nav" style="width: 100%;">
                     <div style="display: flex; align-items: center; justify-content: space-evenly; width: 100%;">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    <a class="nav-link" href="/contatti">Contatti</a>
-                    <a class="nav-link" href="/sito_web">Sito Web</a>
-                    <a class="nav-link" href="/altro">Altro</a>
-                </div>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" href="/contatti">Contatti</a>
+                        <a class="nav-link" href="/sito_web">Sito Web</a>
+                        <a class="nav-link" href="/altro">Altro</a>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
-    <div>
-        <h1 class="text-center">{{ $siamo }}</h1>
-        <h1 class="text-center">{{ $group }}</h1>
+    <div class="text-center mt-3">
+        <h1>{{ $siamo }}</h1>
+        <h1>{{ $group }}</h1>
     </div>
-    <div class="img-row" style="width: 100%;">
-    <div class="img-col text-center">
+
+    <div class="img-col text-center mt-4">
         <img class="object-fit-xxl-contain border rounded" src="https://i1.wp.com/www.cremonanews.it/wp-content/uploads/2019/06/lavori-in-corso.jpg?fit=770%2C470&ssl=1" alt="W.i.P">
     </div>
-</div>
+
+
+    <!-- CDN JavaScript Boolstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

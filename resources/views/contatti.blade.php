@@ -23,20 +23,20 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg bg-info">
+    <nav class="navbar navbar-expand-lg bg-info">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Contatti!</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav" style="width: 100%;" >
+                <div class="navbar-nav" style="width: 100%;">
                     <div style="display: flex; align-items: center; justify-content: space-evenly; width: 100%;">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    <a class="nav-link" href="/chi_siamo">Chi Siamo</a>
-                    <a class="nav-link" href="/sito_web">Sito Web</a>
-                    <a class="nav-link" href="/altro">Altro</a>
-                </div>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" href="/chi_siamo">Chi Siamo</a>
+                        <a class="nav-link" href="/sito_web">Sito Web</a>
+                        <a class="nav-link" href="/altro">Altro</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -48,6 +48,11 @@
     <div>
         <img class="object-fit-xxl-contain " src="https://th.bing.com/th/id/R.4ab5b8aabe2458710f24f4231b505e4a?rik=tFE%2feOJ%2fWo3roA&pid=ImgRaw&r=0" alt="W.i.P">
     </div>
+
+
+
+    <!-- CDN JavaScript Boolstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

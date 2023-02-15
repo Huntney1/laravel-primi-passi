@@ -43,10 +43,24 @@ Route::get('contatti', function () {
     return view('contatti',$data);
 }); 
 
+# SITO WEB
 Route::get('sito_web', function () {
-    return view('sito_web');
+
+    $data = [
+        'ben' => 'Benvenuto nella Pagina dei',
+        'web' => 'Siti Web!'
+    ];
+
+    return view('sito_web',$data);
 });
 
+# ALTRO
 Route::get('altro', function () {
-    return view('altro');
+
+    $data = [
+        'benv' => 'Benvenuto nella Pagina',
+        'altr' => 'Altro!'
+    ];
+    
+    return view('altro',$data);
 });

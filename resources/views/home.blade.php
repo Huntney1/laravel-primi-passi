@@ -48,9 +48,9 @@
         </div>
     </nav>
     <div class="text-center p-1 c-red">
-        <h1 class="text-warning">{{ $word }}</h1>
+        <h1 class=".text-warning">{{ $word }}</h1>
     </div>
-    <div class="text-center bg-danger mt-3">
+    <div class="text-center bg-danger mt-4">
         <img src="https://freesvg.org/img/work-in-progress-woman_at_work-o-f-daisy.png" alt="W.i.P">
     </div>
 
